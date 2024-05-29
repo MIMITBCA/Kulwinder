@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Spa Services</title>
+    <link rel="stylesheet" href="CSS/book.css">
+</head>
+<body>
+    <h1>Book Spa Services</h1>
+    <form action="book_service.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+        <br>
+        <label for="service">Select Service:</label>
+        <select id="service" name="service">
+            <option value="Massage Therapy">Massage Therapy</option>
+            <option value="Facial Treatments">Facial Treatments</option>
+            <option value="Body Wraps">Body Wraps</option>
+        </select>
+        <br>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>
